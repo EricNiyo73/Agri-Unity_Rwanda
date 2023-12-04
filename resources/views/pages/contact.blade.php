@@ -17,9 +17,9 @@
                 The information is also part of the MF Rural, where you can find news,
                 quotes, technological information and others, in addition.
             </p>
-            <small><i class="fas fa-phone-alt"></i> (10) 892-293 2678</small>
-            <small><i class="fas fa-envelope"></i> contact@agrica.com</small>
-            <small><i class="fas fa-map-marker-alt"></i> 768/A, Green lane 790, Max town New York</small>
+            <small><i class="fas fa-phone-alt"></i> +250 08967564</small>
+            <small><i class="fas fa-envelope"></i> contact@agriunityrwanda.com</small>
+            <small><i class="fas fa-map-marker-alt"></i> 768/A, Green lane 790, Max town kigali -Rwanda</small>
             <button type="button">Drop your Message</button>
         </div>
         <div class="right_container">

@@ -15,7 +15,7 @@
                 <img src="{{ asset('images/services3.png.webp') }}" alt="connection failed " />
             </div>
             <div class="contentsniper">
-                <h1>20+ years of agricultural cooperative</h1>
+                <h2>20+ years of agricultural cooperative</h2>
                 <p>The information is also part of the MF Rural, where you can find news, quotes, technological information and others,
                     in addition to information about companies in the sector, list of any and all companies related to agribusiness,
                     just access the Rural List section.</p>
@@ -28,7 +28,7 @@
                 <img src="{{ asset('images/services3.png.webp') }}" alt="connection failed " />
             </div>
             <div class="contentsniper">
-                <h1>20+ years of agricultural cooperative</h1>
+                <h2>20+ years of agricultural cooperative</h2>
                 <p>The information is also part of the MF Rural, where you can find news, quotes, technological information and others,
                     in addition to information about companies in the sector, list of any and all companies related to agribusiness,
                     just access the Rural List section.</p>
