@@ -1,0 +1,93 @@
+
+
+.footer_section {
+    background-color: #F3FFF2;
+    color: #244821;
+    padding: 30px 40px;
+    margin-top: 20px;
+  }
+  
+  .footer_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer_content {
+    flex: 1;
+    max-width: 400px;
+  }
+  .footer_content p{
+    font-size: 1.2rem;
+  }
+
+  .logo img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  
+  .logo h2 {
+    font-size: 1.5rem;
+    color: #234821;
+  }
+  
+  .link_icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .link_icons svg {
+    color: #234821;
+    font-size: 1.5rem;
+  }
+  
+  .quicklink_footer,
+  .company_footer {
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .quicklink_footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #234821;
+  }
+  
+  .quicklink_footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quicklink_footer ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .quicklink_footer ul li a {
+    text-decoration: none;
+    color: #234821; 
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .quicklink_footer ul li a:hover {
+    color: #15803d;
+    text-decoration: underline;
+  }
+  .copy_right {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .copy_right p {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    color: #224a18;
+  }
+  
