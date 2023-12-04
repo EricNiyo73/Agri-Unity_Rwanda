@@ -23,9 +23,11 @@
             </div>
         </div>
     </div>
+    @include('pages.products')
     @include('pages.about')
     @include('pages.service')
     @include('pages.blog')
+    @include('pages.Experts')
     @include('pages.contact')
 @endsection
 

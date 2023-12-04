@@ -4,12 +4,12 @@
     <div class="footer_flex">
         <div class="footer_content">
             <div class="logo">
-            <img src="{{ asset('images/Home.jpg') }}" alt="Connection Failed" />
+            <img src="{{ asset('images/ogi.jpeg') }}" alt="Connection Failed" />
                 <h2>Agri_UnityRwanda</h2>
             </div>
             <p>
                 Explore the latest news, quotes,
-                and technological information in the agricultural sector with Agro_connect.
+                and technological information in the agricultural sector with Agri_unity Rwanda.
             </p>
             <div class="link_icons">
                 <i class="fab fa-facebook-messenger"></i>

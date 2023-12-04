@@ -16,7 +16,8 @@
             <a href="{{ route('home') }}">Home</a>
             <a href="{{ route('about') }}">About</a>
             <a href="{{ route('service') }}">Service</a>
-            <a href="{{ route('blog') }}">Blog</a>
+            <a href="{{ route('service') }}">Farming Practice</a>
+            <a href="{{ route('blog') }}">Our Product</a>
             <a href="{{ route('contact') }}">Contact</a>
         </div>
         <div class="connect">

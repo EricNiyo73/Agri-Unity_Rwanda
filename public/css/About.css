@@ -9,7 +9,9 @@
     padding: 40px;
     background-color: #fafafa;
 }
-
+.image_container img{
+    border-radius: 1rem;
+}
 .imageleft {
     flex: 1;
     margin: 0px 20px;
@@ -19,6 +21,7 @@
 .imageleft img {
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 .right_content {
