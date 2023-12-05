@@ -33,11 +33,11 @@ class PagesController extends Controller
 
     public function login()
     {
-        return view('auth.login'); // You may need to customize this based on your authentication setup
+        return view('auth.login'); 
     }
 
     public function register()
     {
-        return view('auth.register'); // You may need to customize this based on your authentication setup
+        return view('auth.register'); 
     }
 }
