@@ -33,11 +33,25 @@ class PagesController extends Controller
 
     public function login()
     {
-        return view('auth.login'); 
+        return view('auth.login');
     }
 
     public function register()
     {
-        return view('auth.register'); 
+        return view('auth.register');
+    }
+
+    public function farmerForm()
+    {
+        return view('auth.farmerform');
+    }
+
+    // If you want to handle form submission for farmerForm
+    public function submitFarmerForm(Request $request)
+    {
+        // Handle form submission logic here
+        // You can access form data using $request->input('field_name')
+
+        return redirect()->back()->with('success', 'Form submitted successfully!');
     }
 }

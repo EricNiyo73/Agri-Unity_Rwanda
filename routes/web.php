@@ -22,6 +22,7 @@ Route::post('/registeruser',[AuthController::class,'storeuser']) ->name('user.st
 Route::post('/loginuser', [AuthController::class,'loginuser'])->name('user.loginuser');
 Route::get('/alluser', [UserController::class,'showAll'])->name('user.showAll');
 
+ 
 // Route::get('/showform', [UserController::class,'showEdit'])->name('user.editing');
 Route::get('/users/edit/{user}', [UserController::class ,'showEdit'])->name('user.editing');
 Route::put('/updateuser/{user}', [UserController::class,'update'])->name('user.update');
@@ -40,3 +41,22 @@ Route::delete('/destroyUser/{user}', [UserController::class,'destroyUser'])->nam
 // // Register
 // Route::get('/register', [RegisterController::class, 'register'])->name('register')->middleware('guest');
 // // Route::post('/register', [RegisterController::class, 'register'])->middleware('guest');
+=======
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\FarmerController;
+
+
+
+
+
+// In web.php
+Route::get('/farmerform', [PagesController::class, 'farmerForm'])->name('farmerform')->middleware('guest');
+Route::post('/farmerform', [PagesController::class, 'submitFarmerForm'])->name('farmerform.submit')->middleware('guest');
+
+
+// routes/web.php
+
+Route::get('/farmerform/update/{productId}', [FarmerController::class, 'showUpdateForm'])->name('farmerform.update')->middleware('guest');
+Route::post('/farmerform/update/{productId}', [FarmerController::class, 'updateProduct'])->middleware('guest');
+
