@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="title">
-    <h1>Trending Agricultural Formers Product </h1>
+    <h1>Trending Agricultural Farmers Product </h1>
     </div>
     
     <div class="product-container">
@@ -20,7 +20,8 @@
     </div>
     <div class="product-details">
         <h2>Tomato</h2>
-        <p>but it is often grown as an annual crop even if biennial and perennial forms exist</p>
+        <p>But it is often grown as an annual crop even if biennial and perennial forms exist</p>
+        <small> Farmer:  Nkurunziza Jean Bosco</small>
         <button class="chat-button" onclick="openChat('Farmer 1')">Chat with Farmer</button>
     </div>
 </div>
@@ -33,6 +34,7 @@
         <h2>Dairy
 Products</h2>
         <p>but it is often grown as an annual crop even if biennial and perennial forms exist</p>
+        <small> Farmer:  MURENZI Athanase</small>
         <button class="chat-button" onclick="openChat('Farmer 1')">Chat with Farmer</button>
     </div>
 </div>
@@ -44,6 +46,7 @@ Products</h2>
         <h2>Fresh
 Vegetables</h2>
         <p>but it is often grown as an annual crop even if biennial and perennial forms exist</p>
+        <small> Farmer:  MUHAWENIMANA Gertulde</small>
         <button class="chat-button" onclick="openChat('Farmer 1')">Chat with Farmer</button>
     </div>
 </div>
@@ -55,7 +58,8 @@ Vegetables</h2>
     <div class="product-details">
         <h2>Organic
 Products</h2>
-        <p>Tomato is a perennial herbaceous plant </p>
+        <p>irish Potatoes is a perennial herbaceous plant </p>
+        <small> Farmer:  MUKAMABANO  Dathive</small>
         <button class="chat-button" onclick="openChat('Farmer 2')">Chat with Farmer</button>
     </div>
 </div>

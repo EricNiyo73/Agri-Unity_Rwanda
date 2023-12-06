@@ -27,28 +27,42 @@
                     <img src="{{ asset('images/ogi.jpeg') }}" alt="connection failed " />
                     <h3>Welcome Back!</h3>
                 </div>
-                <form action="" class='form grid'>
-                    <!-- <span class='showMessage'>Login status will be here</span> -->
+                <form action="{{ route('user.storeuser') }}" method="post" class='form grid'>
+                @csrf
+                @method('post')
+                    <span class='showMessage'>
+                    @error('telephone')
+                         <p class="text-danger">{{ $message }}</p>
+                         @enderror
+                    </span>
 
                     <div class="inputDiv">
-                        <label for="Username">Username</label>
+                        <label for="Username">Full Names</label>
                         <div class="input">
                             <span class='icon'>&#x1F482;</span>
-                            <input type='text' id='Username' placeholder='Enter Username' />
+                            <input type='text' id='fullname' name="fullname" placeholder='Enter Full names' />
                         </div>
                     </div>
+             
                     <div class="inputDiv">
-                        <label for="Username">Email</label>
+                        <label for="Username">Telephone</label>
                         <div class="input">
-                        <span class='icon'>&#x2709;</span>
-                            <input type='email' id='email' placeholder='Enter Email' />
+                        <!-- <span class='icon'>&#x2709;</span> -->
+                        <select id="country_code" name="country_code" required>
+                    <!-- Add your country codes dynamically or manually -->
+                    <option value="250">250</option>
+                    <!-- <option value="+44">+44 (UK)</option> -->
+                    <!-- Add more options as needed -->
+                </select>
+                            <input type='number' id='tel' name="telephone" placeholder='Enter your Phone number' />
                         </div>
                     </div>
                     <div class="inputDiv">
                         <label for="Password">Password</label>
                         <div class="input">
                             <span class='icon'>&#x1F512;</span>
-                            <input type='password' id='password' placeholder='Enter Password' />
+                            
+                            <input type='password' id='password' name="password" placeholder='Enter Password' />
                         </div>
                     </div>
 
