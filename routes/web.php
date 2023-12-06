@@ -16,11 +16,20 @@ Route::get('/register', [PagesController::class, 'register'])->name('register');
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\FarmerController;
 
-// Login
-Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login')->middleware('guest');
-Route::post('/login', [LoginController::class, 'login'])->middleware('guest');
 
-// Register
-Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register')->middleware('guest');
-Route::post('/register', [RegisterController::class, 'register'])->middleware('guest');
+
+
+
+// In web.php
+Route::get('/farmerform', [PagesController::class, 'farmerForm'])->name('farmerform')->middleware('guest');
+Route::post('/farmerform', [PagesController::class, 'submitFarmerForm'])->name('farmerform.submit')->middleware('guest');
+
+
+// routes/web.php
+
+
+Route::get('/farmerform/update/{productId}', [FarmerController::class, 'showUpdateForm'])->name('farmerform.update')->middleware('guest');
+Route::post('/farmerform/update/{productId}', [FarmerController::class, 'updateProduct'])->middleware('guest');
+

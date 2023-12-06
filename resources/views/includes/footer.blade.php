@@ -35,7 +35,7 @@
                 <li><a href="/">Telecommunication</a></li>
                 <li><a href="/">Telecommunication</a></li>
                 <li><a href="/">Telecommunication</a></li>
-                <li><a href="/">Telecommunication</a></li>
+                <li><a href="/">Twandikire</a></li>
             </ul>
         </div>
     </div>
