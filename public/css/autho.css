@@ -65,7 +65,7 @@ video {
     color: var(--whiteColor);
     padding: 10px;
     background: red;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     text-align: center;
 }
 
@@ -342,6 +342,9 @@ a {
 
     .headerDiv {
         padding: 1rem 0;
+    }
+    .text-danger {
+        color: #dc3545;
     }
 }
 

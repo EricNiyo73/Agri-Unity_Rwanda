@@ -27,30 +27,36 @@
                     <img src="{{ asset('images/ogi.jpeg') }}" alt="connection failed " />
                     <h3>Welcome Back!</h3>
                 </div>
-                <form action="" class='form grid'>
-                    <!-- <span class='showMessage'>Login status will be here</span> -->
+                <form action="{{ route('user.loginuser') }}" method="post" class='form grid'>
+                @csrf
+    <!-- <span class='showMessage'>Login status will be here</span> -->
+    <span class='showMessage'>
+                    @error('telephone')
+                         <p class="text-danger">{{ $message }}</p>
+                         @enderror
+                    </span>
 
-                    <div class="inputDiv">
-                        <label for="Username">Username</label>
-                        <div class="input">
-                            <span class='icon'>&#x1F482;</span>
-                            <input type='text' id='Username' placeholder='Enter Username' />
-                        </div>
-                    </div>
+    <div class="inputDiv">
+        
+        <label for="telephone">Telephone</label>
+        <div class="input">
+            <span class='icon'>&#x1F482;</span>
+            <input type='number' id='telephone' name="telephone" placeholder='Banzaho 250' />
+        </div>
+    </div>
 
-                    <div class="inputDiv">
-                        <label for="Password">Password</label>
-                        <div class="input">
-                            <span class='icon'>&#x1F512;</span>
-                            <input type='password' id='password' placeholder='Enter Password' />
-                        </div>
-                    </div>
+    <div class="inputDiv">
+        <label for="password">Password</label>
+        <div class="input">
+            <span class='icon'>&#x1F512;</span>
+            <input type='password' id='password' name="password" placeholder='Ijambo banga' />
+        </div>
+    </div>
 
-                    <button type='submit' class='btn flex'>
-                        <span>Login</span>
-                        <span class='icon'>&#x2192;</span>
-                    </button>
-
+    <button type='submit' class='btn flex'>
+        <span>Login</span>
+        <span class='icon'>&#x2192;</span>
+    </button>
                     <span class='forgotPassword'>
                         Forget your password? <a href="">Click Here</a>
                     </span>

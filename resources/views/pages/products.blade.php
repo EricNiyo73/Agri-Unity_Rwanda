@@ -9,25 +9,6 @@
 </head>
 <body>
     <div class="title">
-        <h1>Menya kndi Uhitamo Igihigwa Ushaka </h1>
-    </div>
-    <div class="searchdisplay">
-    <div class="filter-container">
-        <label for="category">Filter by Category:</label>
-        <select id="category">
-            <option value="all">All Categories</option>
-            <option value="ibikigwa">Ibikigwa by'ibinyamake</option>
-            <option value="diary">Diary and Other (Fish)</option>
-            <option value="fresh">Fresh Vegetables</option>
-            <option value="organic">Organic Products</option>
-        </select>
-    </div>
-    <form class="search-form">
-        <input type="text" placeholder="Search products...">
-        <button type="submit">
-            <img src="{{ asset('images/search-icon.png') }}" alt="Search">
-        </button>
-    </form>
     </div>
    
 

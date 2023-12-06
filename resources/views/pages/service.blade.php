@@ -9,7 +9,7 @@
 <body>
 
     <div class="service_container">
-        <h1>Services we provide</h1>
+        <h1>Agronomy Officer Support</h1>
         
         <div class="cards_container">
             @foreach(range(1, 4) as $index)
